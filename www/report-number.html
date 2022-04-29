@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <button class="dropdown-settings">...</button>
+            <!--- Settings go here -->
+        <button class="dropdown-menu">Reporte</button>
+            <!--- Views go here -->
+    </div>
+    <div>
+        <form id="report-number-form" action="">
+            <label for="number">N&#250;mero de Tel&#233;fono Extorsionador a Reportar</label><br />
+            <input id="task-phone-number" type="number" /><br />
+            <label for="audio-file">Adjuntar llamada grabada:</label>
+            <input id="task-audio-file" type="file" name="audio-file" /><br />
+            <button id="submit-button" type="submit" value="Enviar Reporte">Enviar Reporte</button>
+            <button id="exit-button" value="Salir">Salir</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="module" src="./js/report-number.js"></script>
+</body>
+</html>

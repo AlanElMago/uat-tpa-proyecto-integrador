@@ -13,14 +13,17 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "devDependencies": {
-    "cordova-android": "^10.1.2"
+    "cordova-android": "^10.1.2",
+    "cordova-browser": "^6.0.0"
   },
   "cordova": {
     "platforms": [
-      "android"
+      "android",
+      "browser"
     ]
   },
   "dependencies": {
-    "cordova-plugin-firebase": "2.0.5"
+    "cordova-plugin-firebase": "2.0.5",
+    "uuid": "^8.3.2"
   }
 }
